@@ -24,8 +24,14 @@ router.post('/uploadFile', function ( req, res, next){
     res.redirect('/files');
 });
 
-router.get('/bootstrapTest', function(req, res, next){
-    res.render('bootstrapTest');
-})
+router.get('/logIn', function(req, res, next){
+    console.log('log in test');
+    res.render('logIn');
+});
+
+router.post('/logIn', function(req, res, next){
+    console.log('log in test');
+    res.render('logIn');
+});
 
 module.exports = router;
