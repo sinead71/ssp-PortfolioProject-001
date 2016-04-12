@@ -24,4 +24,8 @@ router.post('/uploadFile', function ( req, res, next){
     res.redirect('/files');
 });
 
+router.get('/bootstrapTest', function(req, res, next){
+    res.render('bootstrapTest');
+})
+
 module.exports = router;
