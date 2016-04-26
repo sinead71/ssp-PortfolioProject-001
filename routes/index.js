@@ -24,6 +24,7 @@ router.post('/uploadFile', function ( req, res, next){
     res.redirect('/files');
 });
 
+//Log In
 router.get('/logIn', function(req, res, next){
     console.log('log in test');
     res.render('logIn');
@@ -32,6 +33,17 @@ router.get('/logIn', function(req, res, next){
 router.post('/logIn', function(req, res, next){
     console.log('log in test');
     res.render('logIn');
+});
+
+//Sign Up
+router.get('/signUp', function(req, res, next){
+    console.log('sign up test');
+    res.render('signUp');
+});
+
+router.post('/signUp', function(req, res, next){
+    console.log('sign up test');
+    res.render('signUp');
 });
 
 module.exports = router;
