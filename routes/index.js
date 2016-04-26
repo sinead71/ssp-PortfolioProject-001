@@ -24,6 +24,7 @@ router.post('/uploadFile', function ( req, res, next){
     res.redirect('/files');
 });
 
+//home page
 router.get('/home', function(req, res, next){
     console.log('home test');
     res.render('index');
@@ -32,6 +33,28 @@ router.get('/home', function(req, res, next){
 router.post('/home', function(req, res, next){
     console.log('home test');
     res.render('index');
+});
+
+//about page
+router.get('/about', function(req, res, next){
+    console.log('about test');
+    res.render('about');
+});
+
+router.post('/about', function(req, res, next){
+    console.log('about test');
+    res.render('about');
+});
+
+//contact page
+router.get('/contact', function(req, res, next){
+    console.log('contact test');
+    res.render('contact');
+});
+
+router.post('/contact', function(req, res, next){
+    console.log('contact test');
+    res.render('contact');
 });
 
 //Log In
