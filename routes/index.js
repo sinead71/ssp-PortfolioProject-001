@@ -24,6 +24,16 @@ router.post('/uploadFile', function ( req, res, next){
     res.redirect('/files');
 });
 
+router.get('/home', function(req, res, next){
+    console.log('home test');
+    res.render('index');
+});
+
+router.post('/home', function(req, res, next){
+    console.log('home test');
+    res.render('index');
+});
+
 //Log In
 router.get('/logIn', function(req, res, next){
     console.log('log in test');
