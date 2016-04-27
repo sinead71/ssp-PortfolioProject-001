@@ -33,12 +33,25 @@ h1.name{
 
 .uploadInfo{
     margin-right:10%;
+    text-align: center;
 }
 
-#login{
-    margin-right:5%;  
+#logInBtn{
+    margin-right: 5%;
+    margin-left: 16%; 
+    float: left; 
+    width:30%;
+}
+
+#signUpBtn{
+    float: left;
+    width:30%;
 }
 
 h2.uploadHeading{
     color:black;   
+}
+
+.glyphicon{
+    font-size: 8em;
 }
