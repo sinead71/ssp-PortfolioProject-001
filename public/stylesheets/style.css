@@ -1,5 +1,6 @@
+@charset "utf-8";
+
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -7,6 +8,26 @@ a {
   color: #00B7FF;
 }
 
+.mainImage{
+    height: 330px;
+    margin-left:5%;
+    margin-right:5%;
+    border-radius: 10px;
+    background-image: url("../images/mainImage.png");
+}
+
 h1{
     text-align: center;
 }
+
+h2{
+    margin-top:50px;
+    text-align: center;
+    color:#F8F1FF;
+}
+
+h1.name{
+    margin-top:10px;
+    color:#F8F1FF;
+}
+
