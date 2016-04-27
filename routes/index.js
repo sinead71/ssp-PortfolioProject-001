@@ -46,16 +46,50 @@ router.post('/about', function(req, res, next){
     res.render('about');
 });
 
-//contact page
-router.get('/contact', function(req, res, next){
-    console.log('contact test');
-    res.render('contact');
+//images page
+router.get('/images', function(req, res, next){
+    console.log('images test');
+    res.render('images');
 });
 
-router.post('/contact', function(req, res, next){
-    console.log('contact test');
-    res.render('contact');
+router.post('/images', function(req, res, next){
+    console.log('images test');
+    res.render('images');
 });
+
+//videos page
+router.get('/videos', function(req, res, next){
+    console.log('videos test');
+    res.render('videos');
+});
+
+router.post('/videos', function(req, res, next){
+    console.log('videos test');
+    res.render('videos');
+});
+
+//.swf page
+router.get('/swf', function(req, res, next){
+    console.log('swf test');
+    res.render('swf');
+});
+
+router.post('/swf', function(req, res, next){
+    console.log('swf test');
+    res.render('swf');
+});
+
+//upload page 
+router.get('/upload', function(req, res, next){
+    console.log('upload test');
+    res.render('upload');
+});
+
+router.post('/upload', function(req, res, next){
+    console.log('upload test');
+    res.render('upload');
+});
+
 
 //Log In
 router.get('/logIn', function(req, res, next){

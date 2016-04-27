@@ -32,8 +32,11 @@ h1.name{
 }
 
 .uploadInfo{
-    margin-right:10%;
+    margin-right:13.5%;
     text-align: center;
+    background-color: #B8C4BB;
+    border-radius: 10px;
+    height: 300px;
 }
 
 #logInBtn{
@@ -49,7 +52,8 @@ h1.name{
 }
 
 h2.uploadHeading{
-    color:black;   
+    color:black;  
+    padding-top: 20px; 
 }
 
 .glyphicon{
